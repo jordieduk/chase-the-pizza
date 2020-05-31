@@ -1,5 +1,5 @@
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {
-    info.changeScoreBy(1)
+    info.changeScoreBy(2)
 })
 scene.setBackgroundColor(4)
 let mySprite = sprites.create(img`
